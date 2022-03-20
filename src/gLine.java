@@ -6,4 +6,6 @@ public class gLine {
     public int x2;
     public int y2;
     public Color color;
+
+    public int ShapeType;
 }

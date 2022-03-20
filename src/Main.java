@@ -14,10 +14,9 @@ public class Main extends JFrame {
         this.setTitle("Paint");
         this.setLayout(new FlowLayout());
 
-        tools=new ToolBox();
         info=new InfoPanel();
         draw=new DrawPanel(info);
-
+        tools=new ToolBox(draw);
         this.add(tools);
         this.add(draw);
         this.add(info);
